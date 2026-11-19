@@ -1,0 +1,30 @@
+:root {
+  --color-dark: #080808;
+  --color-dark-900: #08080a;
+  --color-black: #000000;
+  --color-light: #e1e5e5;
+  --color-white: #ffffff;
+  --color-grey-100: #e1e5e5;
+  --color-grey-200: #dfe3e3;
+  --color-grey-300: #c0c4c6;
+  --color-grey-400: #838a8f;
+  --color-grey-500: #666f76;
+  --color-grey-600: #212528;
+  --color-grey-700: #20272c;
+  --color-grey-800: #1c2227;
+
+  --font-primary: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --text-h1: 6.4rem;
+  --text-h2: 5.2rem;
+  --text-h3: 4.2rem;
+  --text-h4: 2.4rem;
+  --text-large: 2rem;
+  --text-medium: 1.8rem;
+  --text-body: 1.6rem;
+  --text-small: 1.4rem;
+
+  --padding-global: 3.2rem;
+  --container-large: 100%;
+  --container-medium: 100rem;
+}
