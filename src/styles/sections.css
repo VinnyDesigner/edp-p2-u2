@@ -1319,6 +1319,14 @@
   background-size: 15px 15px;
 }
 
+.melius-hero_topo {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
 .melius-orbit_stage {
   position: absolute;
   inset: 0;

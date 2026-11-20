@@ -6,6 +6,7 @@ import catalogueGroundwater from '../../assets/catalogue-groundwater.jpg';
 import catalogueSoil from '../../assets/catalogue-soil.jpg';
 import catalogueWaste from '../../assets/catalogue-waste.jpg';
 import catalogueAirQuality from '../../assets/catalogue-air-quality.jpg';
+import HeroGisBackground from './HeroGisBackground';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -344,7 +345,7 @@ export default function SolutionsSection({ reducedMotion = false }) {
 
   return (
     <section id="solutions" ref={sectionRef} className="melius-solutions theme-invert">
-      <div className="melius-hero_dots" aria-hidden="true" />
+      <HeroGisBackground reducedMotion={reducedMotion} />
 
       <div className="melius-solutions_stage">
         {/* 4 Floating Satellite Cards */}

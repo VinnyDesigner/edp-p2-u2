@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { Globe, ArrowUpRight, Database } from 'lucide-react';
 import { ORBIT_ITEMS } from '../../data/orbitItems';
+import HeroGisBackground from './HeroGisBackground';
 
 export default function Hero({ onOpenAccess, reducedMotion = false }) {
   const heroRef = useRef(null);
@@ -176,7 +177,7 @@ export default function Hero({ onOpenAccess, reducedMotion = false }) {
 
   return (
     <header id="top" ref={heroRef} className="melius-hero theme-invert">
-      <div className="melius-hero_dots" aria-hidden="true" />
+      <HeroGisBackground reducedMotion={reducedMotion} />
 
       <div
         ref={orbitStageRef}
